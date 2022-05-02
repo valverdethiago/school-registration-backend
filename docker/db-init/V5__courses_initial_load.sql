@@ -1,0 +1,5 @@
+insert into courses (name, description) values ('The Complete 2022 Web Development Bootcamp', 'Become a Full-Stack Web Developer with just ONE course. HTML, CSS, Javascript, Node, React, MongoDB, Web3 and DApps');
+insert into courses (name, description) values ('PMP Certification Exam Prep Course 35 PDU Contact Hours/PDU', 'Get your PMP Certification with this course. Fully updated for the 2021 PMP Exam');
+insert into courses (name, description) values ('Ultimate AWS Certified Solutions Architect Associate 2022', 'Full Practice Exam | Learn Cloud Computing | Pass the AWS Certified Solutions Architect Associate Certification SAA-C02!');
+insert into courses (name, description) values ('Ultimate AWS Certified Developer Associate 2022 - NEW!', 'Full Practice Exam with Explanations included! PASS the Amazon Web Services Certified Developer Certification DVA-C01.');
+insert into courses (name, description) values ('JavaScript Algorithms and Data Structures Masterclass', 'The Missing Computer Science and Coding Interview Bootcamp');

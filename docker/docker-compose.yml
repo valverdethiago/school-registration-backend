@@ -1,0 +1,22 @@
+version: '3'
+services:
+  mysql-dev-local:
+    container_name: school_registration_dev_local_db
+    hostname: school_registration_dev_local_db
+    image: mysql:5.7
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: "root"
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+      MYSQL_DATABASE: "school_registration"
+      MYSQL_USER: "school_db_user"
+      MYSQL_PASSWORD: "p@55w0rd"
+    ports:
+      - "3306:3306"
+    volumes:
+      - "./db-init:/docker-entrypoint-initdb.d"
+      - db-dev-local:/var/lib/minesql
+
+volumes:
+  db-dev-local:
+    driver: local
