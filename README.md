@@ -60,6 +60,8 @@ Once the application is started you should be able to access its swagger page on
 
 # Endpoints documentation
 
-The endpoints documentation could be found [./ENDPOINTS.md](here). 
+* [Course](./docs/COURSE.md)
+* [Student](./docs/COURSE.md)
+* [Registration](./docs/COURSE.md)
 
 
